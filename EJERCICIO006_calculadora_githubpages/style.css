@@ -1,0 +1,18 @@
+/* Esto es un comentario */
+
+#principal {
+    width: 200px;
+    border: red 1px solid;
+    background-color: rgb(181, 180, 180);
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+}
+
+.contenido {
+    margin: 5px;
+    text-align: center;
+}
+input {
+    padding: 10px;
+}

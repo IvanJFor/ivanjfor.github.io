@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculos.js"></script>
+</head>
+
+<body>
+    <div id="principal">
+        <div class="contenido">
+            <input type="text" name="" id="iNombre" placeholder="Nombre">
+        </div>
+        <div class="contenido">
+            <input type="number" name="" id="iAltura" placeholder="Altura">
+        </div>
+        <div class="contenido">
+            <input type="" number" name="" id="iPeso" placeholder="Peso">
+        </div>
+        <div class="contenido">
+            <button onclick="calcular('Calculando')">Calcular IMC</button>
+        </div>
+        <div id="resultado">
+            Resultado
+        </div>
+</body>
+<script>
+    function calcular()
+    {
+        let altura = document.getElementById("iAltura").value;
+        let peso = document.getElementById("iPeso").value;
+        let imc = CalculaIMC(altura, peso);
+        document.getElementById("resultado").innerHTML = "IMC: " + imc;
+    }
+</script>
+
+</html>
