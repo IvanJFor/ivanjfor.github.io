@@ -1,0 +1,22 @@
+{
+    "restaurantes": [
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Burguer King",
+            "estilo": "Tex-mex",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Suzuki",
+            "estilo": "Japonés",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Basmati",
+            "estilo": "Indio",
+            "precio": 30
+        }
+    ]
+}

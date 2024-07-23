@@ -1,0 +1,32 @@
+#personajes{
+    width: 100%;
+}
+
+.personaje {
+    width: 98%;
+    height: 100px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    padding: 1%;
+    transition: all 0.25s;
+}
+
+.personaje:hover {
+    border-color: grey;
+    box-shadow: 2px 2px greenyellow;
+}
+
+.imagen {
+    float: left;
+}
+
+.description {
+    float: left;
+}
+
+.imagen img {
+    height: 100px;
+    border-radius: 10px;
+}
