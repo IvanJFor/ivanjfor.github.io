@@ -1,5 +1,4 @@
-{
-    "Arcades": [
+[
         {
             "nombre": "Double Dragon"
         },
@@ -16,4 +15,3 @@
             "nombre": "Ghost'n Goblins"
         }
     ]
-}
