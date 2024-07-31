@@ -1,0 +1,19 @@
+{
+    "Arcades": [
+        {
+            "nombre": "Double Dragon"
+        },
+        {
+            "nombre": "Golden Axe"
+        },
+        {
+            "nombre": "Dragon Ninja"
+        },
+        {
+            "nombre": "Out Run"
+        },
+        {
+            "nombre": "Ghost'n Goblins"
+        }
+    ]
+}
